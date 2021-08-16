@@ -44,7 +44,7 @@ let hero = sprites.create(img`
     . . . f f f f f f . . . 
     . . . f f . . f f . . . 
     `, SpriteKind.Player)
-tiles.placeOnRandomTile(hero, sprites.dungeon.greenOuterNorth0)
+tiles.placeOnRandomTile(hero, sprites.dungeon.purpleOuterNorth1)
 controller.moveSprite(hero)
 scene.cameraFollowSprite(hero)
 let snake = sprites.create(img`
